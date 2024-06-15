@@ -1,0 +1,12 @@
+{
+  "VERSION": "20240602",
+  "PRODUCT": "sailfish",
+  "DEVICE": "sailfish",
+  "MANUFACTURER": "Google",
+  "BRAND": "google",
+  "MODEL": "Pixel",
+  "ID": "OPM1.171019.011",
+  "FINGERPRINT": "google/sailfish/sailfish:8.1.0/OPM1.171019.011/4448085:user/release-keys",
+  "SECURITY_PATCH": "2017-12-05",
+  "DEVICE_INITIAL_SDK_INT": "null"
+}

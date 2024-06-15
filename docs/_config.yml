@@ -1,0 +1,58 @@
+# Site settings
+title: UN1CA
+description: Work-in-progress custom firmware for Samsung Galaxy devices.
+url: "https://unica.mesalabs.io"
+repository: BlackMesa123/UN1CA
+
+permalink: pretty
+
+# Set theme
+remote_theme: just-the-docs/just-the-docs
+# Favicon
+favicon_ico: "/assets/images/favicon.ico"
+
+# Set color scheme
+color_scheme: unica
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "/assets/images/header.png"
+
+search:
+  # Display the relative url in search results
+  rel_url: false
+  # Enable or disable the search button that appears in the bottom right corner of every page
+  button: true
+
+# Enable or disable heading anchors
+heading_anchors: false
+
+# Aux links for the upper right navigation
+aux_links:
+  "GitHub":
+    - "https://github.com/BlackMesa123/UN1CA"
+
+# Footer content
+# appears at the bottom of every page's main content
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; 2024 Salvo Giangreco. All rights reserved."
+
+callouts_level: loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red

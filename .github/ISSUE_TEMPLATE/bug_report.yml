@@ -1,0 +1,65 @@
+name: Bug report
+description: Create a report to help us improve
+title: "[ISSUE] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in the project. To make it easier for me to help you, please fill any required information below.
+        Following the placeholders is not necessary as long as the required information is provided.
+  - type: input
+    attributes:
+      label: "UN1CA version:"
+      placeholder: 1.1.0-0391313
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "Device name:"
+      placeholder: Galaxy A52s 5G
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "Device model number:"
+      placeholder: SM-A528B
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Magisk/KernelSU version:"
+      description: Please also specify if any modules are installed in your device.
+      placeholder: |
+        KernelSU v0.7.5 with the following modules installed:
+        - ZygiskNext
+        - Play Integrity Fix
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Steps to reproduce:"
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Expected behaviour:"
+      placeholder: Describe what should happen.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Actual behaviour:"
+      placeholder: Describe what happens instead.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Logs:"
+      description: Please provide logs obtained via [logcat](https://developer.android.com/tools/logcat) or your /proc/last_kmsg file in case of kernel panics.
+      placeholder: Upload logs by clicking the bar on the bottom. Please avoid uploading logs to other websites or using external links.
+    validations:
+      required: true
